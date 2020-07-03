@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\63.Timing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\68.Virtual_Destructors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\67.Unions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\66.Type_Punning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\65.Sorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\64.Multidimensional_Arrays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\62.Threads.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\58.Function_Pointers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\59.Lambdas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\53.Templates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\57.Static_Arrays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\47.Dynamic_Arrays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\48.Optimizing_the_usage_of_stdvector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\21.Static.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\Static.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\25.Constructors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\27.Inheritance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\32.Strings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\35.The_Mutable_Keyword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\41.Operator_Overloading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\43.Object_Lifetime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\45.Copying_and_Copy_Constructors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\46.The_Arrow_Operator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\74.BENCHMARKING.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\81.VISUAL_BENCHMARKING.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AppVersion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
