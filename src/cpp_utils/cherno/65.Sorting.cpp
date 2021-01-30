@@ -2,11 +2,8 @@
 #include <vector>
 #include <algorithm>
 
-#if 0
-int main()
-#else
-int main65()
-#endif
+
+void test_65()
 {
 	std::vector<int> values = { 3,5,1,4,2 };
 	std::sort(values.begin(), values.end(), [](int a, int b)
@@ -20,6 +17,4 @@ int main65()
 
 	for (int value : values)
 		std::cout << value << std::endl;
-
-	MAIN_END
 }

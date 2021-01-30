@@ -20,12 +20,7 @@ namespace ns48
 	};
 }
 
-
-#if 0
-int main()
-#else
-int main48()
-#endif
+void test_48()
 {
 	using namespace ns48;
 
@@ -41,7 +36,4 @@ int main48()
 	vertices2.emplace_back(1.0f, 2.0f, 3.0f);
 	vertices2.emplace_back(4.0f, 5.0f, 6.0f);
 	vertices2.emplace_back(7.0f, 8.0f, 9.0f);
-
-
-	MAIN_END
 }

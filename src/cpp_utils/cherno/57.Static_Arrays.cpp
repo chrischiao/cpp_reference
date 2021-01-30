@@ -1,5 +1,6 @@
 #include "pch.h"
 #include <array>
+#include <algorithm>
 
 namespace ns57
 {
@@ -35,15 +36,9 @@ namespace ns57
     }
 }
 
-
 #define PRINT_LINE() std::cout << "--------------------------\n"
 
-
-#if 0
-int main()
-#else
-int main57()
-#endif
+void test_57()
 {
     using namespace ns57;
 
@@ -89,6 +84,4 @@ int main57()
 
     std::cout << std::endl;
     PRINT_LINE();
-
-    MAIN_END
 }

@@ -71,12 +71,7 @@ namespace ns27
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main27()
-#endif
+void test_27()
 {
 	using namespace ns27;
 
@@ -98,6 +93,4 @@ int main27()
 
 	delete e;
 	delete p;
-
-	MAIN_END
 }

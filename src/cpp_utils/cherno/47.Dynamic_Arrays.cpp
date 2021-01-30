@@ -20,12 +20,7 @@ namespace ns47
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main47()
-#endif
+void test_47()
 {
 	using namespace ns47;
 
@@ -44,6 +39,4 @@ int main47()
 	vertices.erase(vertices.begin() + 1);
 	for (Vertex& v : vertices)
 		std::cout << v << std::endl;
-
-	MAIN_END
 }

@@ -66,12 +66,7 @@ namespace ns25
 	};
 }
 
-
-#if 0
-int main()
-#else
-int main25()
-#endif
+void test_25()
 {
 	using namespace ns25;
 
@@ -87,6 +82,4 @@ int main25()
 
 	Log::Write();
 	//Log l;
-
-	MAIN_END
 }

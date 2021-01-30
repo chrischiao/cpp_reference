@@ -103,12 +103,7 @@ namespace ns43
 
 }
 
-
-#if 0
-int main()
-#else
-int main43()
-#endif
+void test_43()
 {
 	using namespace ns43;
 
@@ -162,6 +157,4 @@ int main43()
 		std::cout << p.expired() << std::endl;
 	}
 	Print();
-
-	MAIN_END
 }

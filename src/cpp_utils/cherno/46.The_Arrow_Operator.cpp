@@ -8,12 +8,7 @@ namespace ns46
 	};
 }
 
-
-#if 0
-int main()
-#else
-int main46()
-#endif
+void test_46()
 {
 	using namespace ns46;
 
@@ -24,6 +19,4 @@ int main46()
 	std::cout << xOffset << std::endl;
 	std::cout << yOffset << std::endl;
 	std::cout << zOffset << std::endl;
-
-	MAIN_END
 }

@@ -96,7 +96,7 @@
     <ClCompile Include="cherno\81.VISUAL_BENCHMARKING.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="temp.cpp">
+    <ClCompile Include="DllFuncCall.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

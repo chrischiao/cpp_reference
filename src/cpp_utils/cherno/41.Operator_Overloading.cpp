@@ -50,12 +50,7 @@ namespace ns41
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main41()
-#endif
+void test_41()
 {
 	using namespace ns41;
 
@@ -71,7 +66,4 @@ int main41()
 	}
 
 	std::cout << result1 << std::endl;
-
-
-	MAIN_END
 }

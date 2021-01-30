@@ -14,17 +14,12 @@ namespace ns62
 		while (!s_Finished)
 		{
 			std::cout << "working...\n";
-			std::this_thread::sleep_for(1s);
+			std::this_thread::sleep_for(5s);
 		}
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main62()
-#endif
+void test_62()
 {
 	using namespace ns62;
 
@@ -32,10 +27,10 @@ int main62()
 
 	std::cin.get();
 	s_Finished = true;
-
-	worker.join();
-	std::cout << "Finished." << std::endl;
 	std::cout << "main thread id = " << std::this_thread::get_id() << std::endl;
 
-	MAIN_END
+	worker.join();
+
+	std::cout << "Finished." << std::endl;
+	std::cout << "main thread id = " << std::this_thread::get_id() << std::endl;
 }

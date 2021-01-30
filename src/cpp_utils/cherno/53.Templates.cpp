@@ -36,12 +36,7 @@ namespace ns53
 
 }
 
-
-#if 0
-int main()
-#else
-int main53()
-#endif
+void test_53()
 {
     using namespace ns53;
 
@@ -55,6 +50,4 @@ int main53()
 
     ArrayEx<std::string, 50> arrayEx;
     std::cout << arrayEx.GetSize() << std::endl;
-
-    MAIN_END
 }

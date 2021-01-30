@@ -64,12 +64,7 @@ namespace ns45
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main45()
-#endif
+void test_45()
 {
 	using namespace ns45;
 
@@ -80,7 +75,4 @@ int main45()
 
 	PrintString(string);
 	PrintStringEx(second);
-
-
-	MAIN_END
 }

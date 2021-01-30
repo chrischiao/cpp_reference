@@ -33,16 +33,9 @@ namespace ns63
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main63()
-#endif
+void test_63()
 {
 	using namespace ns63;
 
 	Function();
-
-	MAIN_END
 }

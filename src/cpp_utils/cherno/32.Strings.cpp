@@ -2,11 +2,7 @@
 #include <string>
 
 
-#if 0
-int main()
-#else
-int main32()
-#endif
+void test_32()
 {
 	const char* name = "Cherno";
 	const wchar_t* name2 = L"CHerno";
@@ -31,6 +27,4 @@ Line4)";
 		"Line2\n"
 		"Line3\n";
 	std::cout << s3 << std::endl;
-
-	MAIN_END
 }

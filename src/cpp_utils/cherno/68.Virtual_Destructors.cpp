@@ -20,11 +20,7 @@ namespace ns68
 
 }
 
-#if 0
-int main()
-#else
-int main68()
-#endif
+void test_68()
 {
 	using namespace ns68;
 
@@ -36,6 +32,4 @@ int main68()
 	std::cout << "---------------------\n";
 	Base* poly = new Derived();
 	delete poly;
-
-	MAIN_END
 }

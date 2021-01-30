@@ -26,12 +26,7 @@ namespace ns58
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main58()
-#endif
+void test_58()
 {
 	using namespace ns58;
 
@@ -62,6 +57,4 @@ int main58()
 
 	// 6 lambda
 	ForEach(values, [](int value) {std::cout << "Value: " << value << std::endl;});
-
-	MAIN_END
 }

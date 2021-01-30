@@ -1,10 +1,7 @@
 #include "pch.h"
 
-#if 0
-int main()
-#else
-int main64()
-#endif
+
+void test_64()
 {
 	int** a2d = new int* [5];
 	for (int i = 0;i < 5;i++)
@@ -52,6 +49,4 @@ int main64()
 	}
 
 	delete[] array;
-
-	MAIN_END
 }

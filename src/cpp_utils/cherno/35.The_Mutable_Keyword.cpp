@@ -19,11 +19,7 @@ namespace ns35
 
 }
 
-#if 0
-int main()
-#else
-int main35()
-#endif
+void test_35()
 {
 	using namespace ns35;
 
@@ -41,6 +37,4 @@ int main35()
 	};
 	f();
 	std::cout << x << std::endl;
-
-	MAIN_END
 }

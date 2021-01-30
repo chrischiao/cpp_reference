@@ -38,12 +38,7 @@ namespace ns67
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main67()
-#endif
+void test_67()
 {
 	using namespace ns67;
 
@@ -67,6 +62,4 @@ int main67()
 	std::cout << "----------------------\n";
 	PrintVector2(vector.a);
 	PrintVector2(vector.b);
-
-	MAIN_END
 }

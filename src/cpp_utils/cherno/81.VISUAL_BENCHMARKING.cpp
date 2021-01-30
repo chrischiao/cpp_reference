@@ -178,12 +178,7 @@ namespace ns81
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main81()
-#endif
+void test_81()
 {
 	using namespace ns81;
 
@@ -192,6 +187,4 @@ int main81()
 	Function2();*/
 	RunBenchmarks();
 	Instrumentor::Get().EndSession();
-
-	MAIN_END
 }

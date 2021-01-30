@@ -34,12 +34,7 @@ namespace ns74
 	};
 }
 
-
-#if 0
-int main()
-#else
-int main74()
-#endif
+void test_74()
 {
 	using namespace ns74;
 
@@ -50,6 +45,4 @@ int main74()
 			value += 2;
 	}
 	std::cout << value << std::endl;
-
-	MAIN_END
 }

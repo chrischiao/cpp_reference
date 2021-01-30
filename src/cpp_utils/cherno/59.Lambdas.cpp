@@ -18,12 +18,7 @@ namespace ns59
 	}
 }
 
-
-#if 0
-int main()
-#else
-int main59()
-#endif
+void test_59()
 {
 	using namespace ns59;
 
@@ -37,6 +32,4 @@ int main59()
 
 	auto it = std::find_if(values.begin(), values.end(), [](int value) {return value > 3;});
 	std::cout << *it << std::endl;
-
-	MAIN_END
 }

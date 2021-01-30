@@ -46,11 +46,7 @@ public:
 };
 
 
-#if 0
-int main()
-#else
-int main21()
-#endif
+void test_21()
 {
 	std::cout << s_Variable << std::endl;
 
@@ -71,9 +67,4 @@ int main21()
 
 
 	Singleton::Get().Hello();
-
-
-	std::cin.get();
-
-	return 0;
 }

@@ -13,12 +13,7 @@ namespace ns66
 	};
 }
 
-
-#if 0
-int main()
-#else
-int main66()
-#endif
+void test_66()
 {
 	using namespace ns66;
 
@@ -32,6 +27,4 @@ int main66()
 	int* position = e.GetPositions();
 	position[0] = 2;
 	std::cout << position[0] << ", " << position[1] << std::endl;
-
-	MAIN_END
 }
