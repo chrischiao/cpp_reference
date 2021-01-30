@@ -99,6 +99,18 @@
     <ClCompile Include="DllFuncCall.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cherno\82.SINGLETONS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\83.SSO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\84.Track_MEMORY_ALLOCATIONS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\85.lvalues_and_rvalues.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
