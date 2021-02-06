@@ -111,6 +111,12 @@
     <ClCompile Include="cherno\85.lvalues_and_rvalues.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cherno\89.Move_Semantics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherno\90.stdmove_and_Move_Assignment_Operator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">

@@ -4,7 +4,7 @@
 void test() { test_##desc(); }
 
 //TEST(dllFunc)
-TEST(85)
+TEST(90)
 
 int main()
 {

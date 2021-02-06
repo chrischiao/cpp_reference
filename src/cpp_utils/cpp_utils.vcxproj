@@ -190,6 +190,8 @@
     <ClCompile Include="cherno\83.SSO.cpp" />
     <ClCompile Include="cherno\84.Track_MEMORY_ALLOCATIONS.cpp" />
     <ClCompile Include="cherno\85.lvalues_and_rvalues.cpp" />
+    <ClCompile Include="cherno\89.Move_Semantics.cpp" />
+    <ClCompile Include="cherno\90.stdmove_and_Move_Assignment_Operator.cpp" />
     <ClCompile Include="cherno\Static.cpp" />
     <ClCompile Include="DllFuncCall.cpp" />
     <ClCompile Include="main.cpp" />
